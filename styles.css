@@ -103,18 +103,18 @@ a {
   letter-spacing: -6.7px;
   text-transform: uppercase;
   padding: 0 16px;
-  background: #9b00f5;
+  background: #168eb6;
 }
 
 .title-studios {
   position: relative;
   display: inline-block;
   font-weight: bold;
-  color: #9b00f5;
+  color: #168eb6;
   letter-spacing: -4.5px;
   text-transform: uppercase;
   padding: 0 16px;
-  border-color: #9b00f5;
+  border-color: #168eb6;
   border-top: 8px solid;
   border-bottom: 8px solid;
   line-height: 1;
