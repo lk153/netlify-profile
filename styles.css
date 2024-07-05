@@ -6,16 +6,15 @@ body {
   padding: 0;
   font-family: "Inter UI", sans-serif;
   text-align: center;
-  color: white;
+  color: #000000;
 }
 
 .titan-background {
   position: absolute;
   width: 100%;
-  background-image: linear-gradient(-180deg, #000000 0%, #200835 100%);
+  background-image: linear-gradient(to right top, #cb50ff, #b340ef, #876eff, #49a3df, #5ab8ff, #27dcec, #56e854, #9be8231f, #fffe00, #ffa74d, #ff7f7f, #c91111);
   overflow: hidden;
   z-index: 1;
-  /* Make the rubber band scroll not show empty white space */
   top: -10%;
   height: 120%;
   min-height: 120vh;
@@ -62,12 +61,12 @@ body {
 }
 
 .marvellous-container {
-  position: relative;
-  z-index: 2;
-  padding: 104px 0 24px 0;
-  width: 95%;
-  max-width: 600px;
-  margin: auto;
+    position: relative;
+    z-index: 2;
+    padding: 104px 0 24px 0;
+    width: 95%;
+    max-width: 600px;
+    margin: auto;
 }
 
 h1 {
@@ -99,22 +98,23 @@ a {
 
 .title-marvel {
   font-weight: bolder;
-  color: #020103;
+  color: #ffffff;
   letter-spacing: -6.7px;
   text-transform: uppercase;
   padding: 0 16px;
-  background: #168eb6;
+  background: #00b6ff;
+  border-radius: 0 60px;
 }
 
 .title-studios {
   position: relative;
   display: inline-block;
   font-weight: bold;
-  color: #168eb6;
+  color: #000000;
   letter-spacing: -4.5px;
   text-transform: uppercase;
   padding: 0 16px;
-  border-color: #168eb6;
+  border-color: #1f1b86;
   border-top: 8px solid;
   border-bottom: 8px solid;
   line-height: 1;
@@ -149,4 +149,8 @@ code {
 .footer img {
   height: 104px;
   width: auto;
+}
+
+.lotus img {
+  max-height:100%; max-width:100%;
 }
